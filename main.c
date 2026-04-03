@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 
 #define LED_PIN         PICO_DEFAULT_LED_PIN
-#define BLINK_MS        1500u
+#define BLINK_MS        250u
 #define GREET_MS        5000u
 
 int main(void) {
@@ -28,6 +28,7 @@ int main(void) {
             printf("Simon Says!\n");
             printf("HELLLOOOOO\n");
             printf("It's-a-MI MARIO!\n");
+            printf("ooh!ooh!ooh!ooh!OH!OH! - Luigi\n");
             last_greet = now;
         }
         if(last_greet == now) printf("WARIO\r\n");

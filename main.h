@@ -8,3 +8,9 @@
 
 
 char* test = "TESTING TESTING 123!";
+typedef enum {
+    MARIO,
+    LUIGI,
+    WARIO,
+    WALUIGI
+} characters;
