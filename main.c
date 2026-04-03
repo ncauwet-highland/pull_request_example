@@ -27,8 +27,10 @@ int main(void) {
         if (now - last_greet >= GREET_MS) {
             printf("Simon Says!\n");
             printf("HELLLOOOOO\n");
+            printf("It's-a-MI MARIO!\n");
             last_greet = now;
         }
+        if(last_greet == now) printf("WARIO\r\n");
     }
 
     return 0;
