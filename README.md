@@ -1,4 +1,5 @@
 # pull_request_example
+**Mario says hi -\_(0_0)_/-**
 
 Small C project used to demonstrate safe Git workflows:
 - creating feature branches
