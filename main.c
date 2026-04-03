@@ -28,6 +28,7 @@ int main(void) {
             printf("It's-a-MI MARIO!\n");
             last_greet = now;
         }
+        if(last_greet == now) printf("WARIO\r\n");
     }
 
     return 0;
